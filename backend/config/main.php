@@ -38,6 +38,10 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'formatter' => [
+            'class' => 'yii\i18n\Formatter',
+            'language' => 'ru-RU', // Устанавливаем русский язык для форматтера
+        ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,
